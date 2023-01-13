@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html> 
+	<head> 
+		<meta charset = "UTF-8">
+		<title> Faça a sua reserva - Clube Lara </title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class = "caixa">
+				<h1> <img src = "logo.png" alt = "Logo do Clube Lara"></h1>
+				<nav>
+					<ul>
+						<li><a href = "index.html">Página inicial.</a></li>
+						<li><a href = "reserva.html">Faça a sua reserva.</a></li>
+						<li><a href = "clubista.html">Seja um clubista.</a></li>
+					</ul>
+				</nav>
+		</header>
+		<main>
+			<section class="principal">
+				<h2 class="titulo-principal"><strong>Vantagens de ser um Clubista:</strong></h2>
+
+				<div>
+
+					<p class="itens">Acesso <strong>TOTAL</strong> a tudo que o <strong>Clube Lara</strong> pode oferecer.</p>
+
+					<p class="itens">Ganhe brindes exclusivos.</p>
+
+					<img src="brindes.png" class="imagens-vantagens" alt="Caixa de presentes">
+
+					<p class="itens">Receba descontos de 30% até 50% nas suas reservas em família.</p>
+
+					<img src="desconto.png" class="imagens-vantagens" alt="Voucher de desconto">
+
+					<p class="itens">Tudo isso por um <strong>valor mensal de R$ 599,99.</strong></p>
+
+					<img src="cartao.png" class="imagens-vantagens" alt="Cartão de crédito">
+
+				</div>
+
+				<p><strong>Inscreva-se preenchendo o formulário abaixo.</strong></p>
+
+				
+			</section>
+				<form class="cadastro">
+					<label for = "NomeSobrenome">Nome e sobrenome: </label>
+					<input type="text" id = "NomeSobrenome" class = "input-padrao" required>
+
+					<label for = "Email"> Endereço de e-mail: </label>
+					<input type="email" id = "Email" class = "input-padrao" required placeholder="seuemail@dominio.com">
+
+					<label for = "Telefone"> Telefone: </label>
+					<input type="tel" id = "Telefone" class = "input-padrao" required placeholder="(XX)XXXXX-XXXX">
+				</form>
+				<form = class="pagamento">
+					<label for = "NumeroCartao">Número do cartão de crédito: </label>
+					<input type="number" id = "NumeroCartao" class = "input-padrao" required placeholder="XXXX XXXX XXXX XXXX">
+
+					<label for = "Titular"> Nome do titular (conforme está no cartão): </label>
+					<input type="text" id = "Titular" class = "input-padrao" required placeholder="Seu Nome">
+
+					<label for = "CPF"> CPF do titular: </label>
+					<input type="number" id = "CPF" class = "input-padrao" required placeholder="XXX-XXX-XX">
+
+					<label for = "Validade"> Validade: </label>
+					<input type="date" id = "Titular" class = "input-padrao" required placeholder="seuemail@dominio.com">
+
+					<label for = "CVV"> CVV: </label>
+					<input type="number" id= "CVV" class="input-padrao" required placeholder="XXX">
+
+					<label class = "checkbox"><input type = "checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+					<input type="submit" value="Enviar" class="Enviar">
+
+				</form>
+		</main>
+		<footer>
+			<img src = "logo.png">
+				<p class = "copyright"> &copy; Copyright Clube Lara 2023.</p>
+		</footer>
+	</body>
+</html>

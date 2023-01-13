@@ -1,0 +1,196 @@
+body{
+	font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+header {
+	background: #228B22;
+	padding: 10px 0;
+}
+.caixa { 
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+ }
+ nav { 
+	position: absolute; 
+	top: 110px;
+	right: 0;
+
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* css da página inicial */
+
+.principal{
+	text-align: center;
+  background: #FFFFFF;
+  width: 940px;
+ 	margin: 0 auto;
+}
+.principal p {
+	font-size: 2em;
+	padding: 2em 0;
+}
+.principal strong {
+	font-weight: bold;
+}
+
+.titulo-principal{
+	text-align: center;
+	padding: 2em 0;
+ 	font-size: 2em;
+}
+
+.titulo-principal strong{
+	font-weight: bold;
+}
+
+.imagens {
+	width: 60%;
+	opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagens:hover{
+	opacity: 0.3;
+  transform: scale(1.2);
+}
+
+.mapa {
+  padding: 3em 0;
+ }
+
+.mapa-conteudo{
+  width: 940px;
+ 	margin: 0 auto;
+
+}
+
+.video{
+	width: 560px;
+ 	margin: 2em auto;
+}
+
+footer {
+	margin: 2em 0 0;
+	text-align: center;
+	background: url("bg.png");
+	padding: 40px 0;
+}
+
+footer p {
+	color: #FFFFFF;
+}
+
+/* css da página faça a sua reserva */
+
+.reservas{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.reservas li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #228B22;
+	border-radius: 10px;
+}
+
+.reserva-individual:hover {
+	transform: scale(1.2);
+	transition: 400ms;
+}
+
+.reserva-casal:hover {
+	transform: scale(1.2);
+	transition: 400ms;
+}
+
+.reserva-familia:hover{
+	transform: scale(1.2);
+	transition: 400ms;
+}
+
+.reservas h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.reserva-descricao{
+	font-size: 18px;
+}
+
+.reserva-preco{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+/* css da página Seja um clubista. */
+.cadastro, .pagamento {
+	margin: 20px 0 40px;
+	margin-left: 50px;
+}
+
+.imagens-vantagens {
+	width: 10%;
+}
+
+ .itens:before {
+  	content: "🌴";
+  }
+
+  .itens:after {
+  	content: "🌴";
+  }
+
+form label {
+	display: block;
+   	font-size: 20px;
+   	margin: 0 0 10px;
+}
+
+.input-padrao { 
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox { 
+ 	margin: 20px 0;
+}
+.Enviar { 
+  width: 20%;
+  padding: 20px 0;
+  background: #228B22;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  transition: 1s all;
+  cursor: pointer;
+}
+.Enviar:hover { 
+	background: black;
+	transform: scale(1.2);
+}
