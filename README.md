@@ -13,3 +13,4 @@ Na página "Seja um Clubista" nos são apresentavas as vantagens de se filiar me
 O Clube Lara é um projeto criado de forma indiviual com a finalidade de colocar em prática o meu conhecimento em HTML5 e CSS3. Todas as imagens contidas no projeto, excedeto a imagem do
 são meramente ilustrativas, assim como o vídeo que faz link com o Youtube.
 
+Link do deploy: https://ledelara.github.io/Clube-Lara/
